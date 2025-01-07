@@ -11,7 +11,7 @@ import SwiftUI
 struct small_project_1App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MeshGradientOverview()
         }
     }
 }
