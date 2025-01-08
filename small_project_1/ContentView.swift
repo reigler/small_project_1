@@ -3,10 +3,10 @@ import SwiftUI
 struct MeshGradientOverview: View {
     var body: some View {
         Button(action: {
-            // Add your button action here
+            
         }) {
-            Text("Click Me") // Add a placeholder or the desired button label
-                .frame(maxWidth: .infinity, minHeight: 60) // Ensure the button takes up the desired space
+            Text("Click Me") 
+                .frame(maxWidth: .infinity, minHeight: 60) 
                 .background(
                     AnimatedMeshGradient()
                         .mask(
@@ -40,10 +40,10 @@ struct MeshGradientOverview: View {
         }
         .padding()
         Button(action: {
-            // Add your button action here
+            
         }) {
-            Text("Click Me") // Add a placeholder or the desired button label
-                .frame(maxWidth: .infinity, minHeight: 60) // Ensure the button takes up the desired space
+            Text("Click Me") 
+                .frame(maxWidth: .infinity, minHeight: 60) 
                 .background(
                     AnimatedMeshGradient()
                         .mask(
